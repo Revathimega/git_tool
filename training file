@@ -1,0 +1,6 @@
+public static void dropdown(WebElement element) {
+
+		Select s = new Select(element);
+		boolean multiple = s.isMultiple();
+		System.out.println(multiple);
+	}
